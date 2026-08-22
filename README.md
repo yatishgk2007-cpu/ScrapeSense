@@ -3,23 +3,35 @@
 🕷️ AI-Powered Product Intelligence Platform
 
 <p>
+
 Turn raw Amazon product data into simple, useful and AI-powered insights.
+
 </p>
 
 <p>
-<b>🕷️ Bright Data</b> &nbsp; • &nbsp;
-<b>🤖 Groq AI</b> &nbsp; • &nbsp;
-<b>⚛️ React</b> &nbsp; • &nbsp;
-<b>🟢 Node.js</b> &nbsp; • &nbsp;
+
+<b>🕷️ Bright Data</b>   •  
+
+<b>🤖 Groq AI</b>   •  
+
+<b>⚛️ React</b>   •  
+
+<b>🟢 Node.js</b>   •  
+
 <b>🎨 Tailwind CSS</b>
+
 </p>
 
 <p>
+
 🏆 Built for <b>Scrape-Verse</b> by <b>WeMakeDevs</b>
+
 </p>
 
 <p>
+
 <strong>👨‍💻 Built by Yatish G K</strong>
+
 </p>
 
 </div>
@@ -60,26 +72,45 @@ That's what ScrapeSense aims to do.
 
 ScrapeSense follows a simple pipeline:
 
-                    Amazon Product URL
-                            |
-                            v
-                   React + Vite Frontend
-                            |
-                            v
-                 Node.js + Express Backend
-                            |
-                            v
-                 Bright Data Amazon Scraper
-                            |
-                            v
-                  Structured Product Data
-                            |
-                            v
-                     Groq AI Analysis
-                            |
-                            v
-                  ScrapeSense Product
-                     Intelligence
+                    Amazon Product URL
+
+                            |
+
+                            v
+
+                   React + Vite Frontend
+
+                            |
+
+                            v
+
+                 Node.js + Express Backend
+
+                            |
+
+                            v
+
+                 Bright Data Amazon Scraper
+
+                            |
+
+                            v
+
+                  Structured Product Data
+
+                            |
+
+                            v
+
+                     Groq AI Analysis
+
+                            |
+
+                            v
+
+                  ScrapeSense Product
+
+                     Intelligence
 
 🔄 Process
 
@@ -117,29 +148,47 @@ This allows ScrapeSense to work with real product data instead of requiring user
 
 🔄 Data Flow
 
-            Amazon Product Page
-                    |
-                    v
-            Product URL
-                    |
-                    v
-            Bright Data Amazon Scraper
-                    |
-                    v
-            Structured Product Data
-                    |
-                    v
-                AI Analysis
-                    |
-                    v
-            Product Insights
+            Amazon Product Page
+
+                    |
+
+                    v
+
+            Product URL
+
+                    |
+
+                    v
+
+            Bright Data Amazon Scraper
+
+                    |
+
+                    v
+
+            Structured Product Data
+
+                    |
+
+                    v
+
+                AI Analysis
+
+                    |
+
+                    v
+
+            Product Insights
 
 The repository also includes structured output from the Bright Data Scraper Studio workflow:
 
-            scraper-output/
-                    |
-                    v
-            sample-product.json
+            scraper-output/
+
+                    |
+
+                    v
+
+            sample-product.json
 
 🤖 AI-Powered Analysis
 
@@ -166,70 +215,126 @@ After the product information is retrieved, relevant data is sent to the AI laye
 ✨ Features
 
 <table>
+
 <tr>
+
 <td><strong>🕷️ Web Scraping</strong><br>Extract Amazon product information using Bright Data.</td>
+
 <td><strong>📦 Structured Data</strong><br>Work with structured product information.</td>
+
 </tr>
+
 <tr>
+
 <td><strong>🤖 AI Analysis</strong><br>Generate useful insights from product data.</td>
+
 <td><strong>💰 Price Information</strong><br>Display product pricing.</td>
+
 </tr>
+
 <tr>
+
 <td><strong>⭐ Ratings & Reviews</strong><br>Present rating and review information.</td>
+
 <td><strong>📊 Product Intelligence</strong><br>Bring important information together.</td>
+
 </tr>
+
 <tr>
+
 <td><strong>🌐 Modern UI</strong><br>React + Tailwind based interface.</td>
+
 <td><strong>⚡ Fast Backend</strong><br>Node.js + Express API.</td>
+
 </tr>
+
 </table>
 
 🛠️ Tech Stack
 
 <table>
+
 <tr>
+
 <td>🎨 <strong>Frontend</strong></td>
+
 <td>⚛️ React · ⚡ Vite · 🎨 Tailwind CSS · 🟨 JavaScript</td>
+
 </tr>
+
 <tr>
+
 <td>⚙️ <strong>Backend</strong></td>
+
 <td>🟢 Node.js · 🚂 Express.js · 🔌 REST API</td>
+
 </tr>
+
 <tr>
+
 <td>🕷️ <strong>Web Data</strong></td>
+
 <td>🕷️ Bright Data · 🛒 Amazon Product Scraper · 🧪 Scraper Studio</td>
+
 </tr>
+
 <tr>
+
 <td>🤖 <strong>AI</strong></td>
+
 <td>🤖 Groq API · 💬 OpenAI-compatible Chat Completions API</td>
+
 </tr>
+
 <tr>
+
 <td>🚀 <strong>Development</strong></td>
+
 <td>🌱 Git · 🐙 GitHub · ▲ Vercel · ☁️ Backend hosting</td>
+
 </tr>
+
 </table>
 
 📁 Project Structure
 
-            ScrapeSense/
-            │
-            ├── 🎨 client/                       # React + Vite frontend
-            │   ├── 📂 src/                      # Application source code
-            │   ├── 📂 public/                   # Public assets
-            │   ├── 📄 package.json              # Frontend dependencies
-            │   └── ...
-            │
-            ├── ⚙️ server/                       # Node.js + Express backend
-            │   ├── 📂 ...                        # API & backend logic
-            │   └── 📄 package.json              # Backend dependencies
-            │
-            ├── 🕷️ scraper-output/              # Bright Data scraper evidence
-            │   └── 📄 sample-product.json       # Structured Scraper Studio output
-            │
-            ├── 📖 README.md                     # Project documentation
-            ├── 🔒 .gitignore                    # Files excluded from Git
-            ├── 📦 package.json                  # Project configuration
-            └── 🔐 package-lock.json             # Locked dependency versions
+            ScrapeSense/
+
+            │
+
+            ├── 🎨 client/                       # React + Vite frontend
+
+            │   ├── 📂 src/                      # Application source code
+
+            │   ├── 📂 public/                   # Public assets
+
+            │   ├── 📄 package.json              # Frontend dependencies
+
+            │   └── ...
+
+            │
+
+            ├── ⚙️ server/                       # Node.js + Express backend
+
+            │   ├── 📂 ...                        # API & backend logic
+
+            │   └── 📄 package.json              # Backend dependencies
+
+            │
+
+            ├── 🕷️ scraper-output/              # Bright Data scraper evidence
+
+            │   └── 📄 sample-product.json       # Structured Scraper Studio output
+
+            │
+
+            ├── 📖 README.md                     # Project documentation
+
+            ├── 🔒 .gitignore                    # Files excluded from Git
+
+            ├── 📦 package.json                  # Project configuration
+
+            └── 🔐 package-lock.json             # Locked dependency versions
 
 🧩 What each part does
 
@@ -264,27 +369,41 @@ The project includes structured output generated from the Bright Data Scraper St
 The structured data can contain fields such as:
 
 {
-  "title": "Product title",
-  "brand": "Brand",
-  "initial_price": 0,
-  "final_price": 0,
-  "currency": "USD",
-  "availability": "In Stock",
-  "rating": 0,
-  "reviews_count": 0,
-  "asin": "PRODUCT_ASIN",
-  "url": "PRODUCT_URL"
+
+  "title": "Product title",
+
+  "brand": "Brand",
+
+  "initial_price": 0,
+
+  "final_price": 0,
+
+  "currency": "USD",
+
+  "availability": "In Stock",
+
+  "rating": 0,
+
+  "reviews_count": 0,
+
+  "asin": "PRODUCT_ASIN",
+
+  "url": "PRODUCT_URL"
+
 }
 
 The repository contains the actual scraper output here:
 
 scraper-output/
-        |
-        +-- sample-product.json
+
+        |
+
+        +-- sample-product.json
 
 ✅ This structured JSON is included as part of the Scrape-Verse submission evidence.
 
 <details>
+
 <summary>🔎 Why structured output matters</summary>
 
 The scraper output gives the application structured product information that can be processed by the backend and passed to the AI analysis layer.
@@ -306,11 +425,13 @@ This creates a clear pipeline from web data extraction to useful product intelli
 1️⃣ 📥 Clone the Repository
 
 git clone https://github.com/yatishgk2007-cpu/ScrapeSense.git
+
 cd ScrapeSense
 
 2️⃣ 📦 Install Backend Dependencies
 
 cd server
+
 npm install
 
 3️⃣ 📦 Install Frontend Dependencies
@@ -318,6 +439,7 @@ npm install
 Open another terminal:
 
 cd client
+
 npm install
 
 🔐 Environment Variables
@@ -325,11 +447,13 @@ npm install
 Create the required environment variables for the backend.
 
 BRIGHTDATA_API_KEY=your_bright_data_api_key
+
 GROQ_API_KEY=your_groq_api_key
 
 ⚠️ Never upload your real API keys to GitHub.
 
 <details>
+
 <summary>🔐 Environment variable reminder</summary>
 
 Keep your .env file local and make sure it is included in .gitignore.
@@ -355,17 +479,29 @@ Then open the local URL provided by Vite.
 🧪 Using ScrapeSense
 
 Amazon Product URL
-        |
-        v
+
+        |
+
+        v
+
 Bright Data Scraping
-        |
-        v
+
+        |
+
+        v
+
 Structured Product Data
-        |
-        v
+
+        |
+
+        v
+
 AI Analysis
-        |
-        v
+
+        |
+
+        v
+
 ScrapeSense Dashboard
 
 1️⃣ 🔗 Enter a Product URL
@@ -403,17 +539,29 @@ The project demo video will be added here after the final recording.
 The demo will show the complete journey:
 
 Amazon Product URL
-        |
-        v
+
+        |
+
+        v
+
 Bright Data Scraping
-        |
-        v
+
+        |
+
+        v
+
 Structured Product Data
-        |
-        v
+
+        |
+
+        v
+
 AI Analysis
-        |
-        v
+
+        |
+
+        v
+
 ScrapeSense Dashboard
 
 🧠 What I Learned
@@ -443,14 +591,23 @@ Building ScrapeSense helped me understand how different parts of a real-world ap
 The most interesting part was connecting:
 
 Web Data Extraction
-        |
-        v
+
+        |
+
+        v
+
 Backend Processing
-        |
-        v
+
+        |
+
+        v
+
 AI Analysis
-        |
-        v
+
+        |
+
+        v
+
 Frontend Visualization
 
 into one working application.
@@ -476,15 +633,19 @@ into one working application.
 🚀 ScrapeSense was built for the Scrape-Verse Hackathon by <mark>WeMakeDevs</mark>, using <mark>Bright Data</mark> for web data extraction.
 
 🕷️ Bright Data powers the web data extraction layer.
+
 👨‍💻 WeMakeDevs organized the Scrape-Verse hackathon.
+
 🚀 Yatish G K built ScrapeSense as the project author.
 
 🙌 Special Thanks
 
 🕷️ <mark><strong>Bright Data</strong></mark>
+
 For providing powerful web data extraction capabilities.
 
 👨‍💻 <mark><strong>WeMakeDevs</strong></mark>
+
 For organizing the Scrape-Verse hackathon and creating the opportunity to build with web data.
 
 👨‍💻 Author
