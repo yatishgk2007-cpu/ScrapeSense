@@ -108,7 +108,9 @@ app.listen(PORT, async () => {
   console.log(`   Mode:       ${isMock ? '🎭 MOCK (demo data)' : '⚡ LIVE (Bright Data)'}`);
   console.log(`   Target URL: ${process.env.TARGET_URL || 'not set'}`);
   console.log(`   Collector:  ${process.env.BRIGHT_DATA_COLLECTOR_ID || 'not set'}`);
-  console.log(`   AI Layer:   Ollama @ ${process.env.OLLAMA_URL || 'http://localhost:11434'} (model: ${process.env.OLLAMA_MODEL || 'qwen2.5:latest'})\n`);
+ console.log(
+  `🤖 AI Layer: Groq (${process.env.GROQ_MODEL || 'openai/gpt-oss-20b'})`
+);
 
   // Seed initial mock changes on startup
   try {
