@@ -1,38 +1,30 @@
-<div align="center">🚀 ScrapeSense
+<div align="center">
+
+🚀 ScrapeSense
 
 🕷️ AI-Powered Product Intelligence Platform
 
 <p>
-
 Turn raw Amazon product data into simple, useful and AI-powered insights.
-
 </p>
 
 <p>
-
-<b>🕷️ Bright Data</b>   •  
-
-<b>🤖 Groq AI</b>   •  
-
-<b>⚛️ React</b>   •  
-
-<b>🟢 Node.js</b>   •  
-
+<b>🕷️ Bright Data</b> &nbsp; • &nbsp;
+<b>🤖 Groq AI</b> &nbsp; • &nbsp;
+<b>⚛️ React</b> &nbsp; • &nbsp;
+<b>🟢 Node.js</b> &nbsp; • &nbsp;
 <b>🎨 Tailwind CSS</b>
-
 </p>
 
 <p>
-
 🏆 Built for <b>Scrape-Verse</b> by <b>WeMakeDevs</b>
-
 </p>
 
 <p>
-
 <strong>👨‍💻 Built by Yatish G K</strong>
-
 </p>
+
+</div>
 
 <p>
 <a href="https://scrape-sense-client.vercel.app/"><strong>🌐 Open ScrapeSense — Live Demo</strong></a>
