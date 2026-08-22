@@ -1,10 +1,28 @@
-🚀 ScrapeSense
+<div align="center">🚀 ScrapeSense
 
 🕷️ AI-Powered Product Intelligence Platform
 
+<p>
 Turn raw Amazon product data into simple, useful and AI-powered insights.
+</p>
 
-Built with: 🕷️ Bright Data · 🤖 Groq AI · ⚛️ React · 🟢 Node.js · 🎨 Tailwind CSS
+<p>
+<b>🕷️ Bright Data</b> &nbsp; • &nbsp;
+<b>🤖 Groq AI</b> &nbsp; • &nbsp;
+<b>⚛️ React</b> &nbsp; • &nbsp;
+<b>🟢 Node.js</b> &nbsp; • &nbsp;
+<b>🎨 Tailwind CSS</b>
+</p>
+
+<p>
+🏆 Built for <b>Scrape-Verse</b> by <b>WeMakeDevs</b>
+</p>
+
+<p>
+<strong>👨‍💻 Built by Yatish G K</strong>
+</p>
+
+</div>
 
 💡 What is ScrapeSense?
 
@@ -99,29 +117,29 @@ This allows ScrapeSense to work with real product data instead of requiring user
 
 🔄 Data Flow
 
-Amazon Product Page
-        |
-        v
-   Product URL
-        |
-        v
-Bright Data Amazon Scraper
-        |
-        v
-Structured Product Data
-        |
-        v
-    AI Analysis
-        |
-        v
- Product Insights
+            Amazon Product Page
+                    |
+                    v
+            Product URL
+                    |
+                    v
+            Bright Data Amazon Scraper
+                    |
+                    v
+            Structured Product Data
+                    |
+                    v
+                AI Analysis
+                    |
+                    v
+            Product Insights
 
 The repository also includes structured output from the Bright Data Scraper Studio workflow:
 
-scraper-output/
-        |
-        v
-sample-product.json
+            scraper-output/
+                    |
+                    v
+            sample-product.json
 
 🤖 AI-Powered Analysis
 
@@ -193,25 +211,51 @@ After the product information is retrieved, relevant data is sent to the AI laye
 
 📁 Project Structure
 
-ScrapeSense/
-|
-+-- 📂 client/
-|   +-- 📂 src/
-|   +-- 📂 public/
-|   +-- 📄 package.json
-|   +-- ...
-|
-+-- 📂 server/
-|   +-- ...
-|   +-- 📄 package.json
-|
-+-- 📂 scraper-output/
-|   +-- 📄 sample-product.json
-|
-+-- 📄 README.md
-+-- 📄 .gitignore
-+-- 📄 package.json
-+-- 📄 package-lock.json
+            ScrapeSense/
+            │
+            ├── 🎨 client/                       # React + Vite frontend
+            │   ├── 📂 src/                      # Application source code
+            │   ├── 📂 public/                   # Public assets
+            │   ├── 📄 package.json              # Frontend dependencies
+            │   └── ...
+            │
+            ├── ⚙️ server/                       # Node.js + Express backend
+            │   ├── 📂 ...                        # API & backend logic
+            │   └── 📄 package.json              # Backend dependencies
+            │
+            ├── 🕷️ scraper-output/              # Bright Data scraper evidence
+            │   └── 📄 sample-product.json       # Structured Scraper Studio output
+            │
+            ├── 📖 README.md                     # Project documentation
+            ├── 🔒 .gitignore                    # Files excluded from Git
+            ├── 📦 package.json                  # Project configuration
+            └── 🔐 package-lock.json             # Locked dependency versions
+
+🧩 What each part does
+
+📂 Part
+
+🎯 Purpose
+
+🎨 client/
+
+User interface built with React + Vite
+
+⚙️ server/
+
+Backend API and application logic
+
+🕷️ scraper-output/
+
+Structured output generated through Bright Data Scraper Studio
+
+📖 README.md
+
+Documentation, setup and project workflow
+
+🔒 .gitignore
+
+Keeps sensitive/unnecessary files out of Git
 
 📦 Scraper Studio Output
 
@@ -350,7 +394,13 @@ Review the resulting product information and AI-generated insights in the dashbo
 
 🎥 Demo
 
-A short demo should show the complete workflow:
+🎬 Demo coming soon
+
+The project demo video will be added here after the final recording.
+
+📌 Demo link: Will be added before final submission.
+
+The demo will show the complete journey:
 
 Amazon Product URL
         |
@@ -365,8 +415,6 @@ AI Analysis
         |
         v
 ScrapeSense Dashboard
-
-🎬 Demo: ADD_DEMO_LINK_HERE
 
 🧠 What I Learned
 
@@ -425,19 +473,25 @@ into one working application.
 
 🏆 Built for Scrape-Verse
 
-🚀 ScrapeSense was built for the Scrape-Verse Hackathon by WeMakeDevs, using Bright Data for web data extraction.
+🚀 ScrapeSense was built for the Scrape-Verse Hackathon by <mark>WeMakeDevs</mark>, using <mark>Bright Data</mark> for web data extraction.
+
+🕷️ Bright Data powers the web data extraction layer.
+👨‍💻 WeMakeDevs organized the Scrape-Verse hackathon.
+🚀 Yatish G K built ScrapeSense as the project author.
 
 🙌 Special Thanks
 
-🕷️ Bright Data
+🕷️ <mark><strong>Bright Data</strong></mark>
 For providing powerful web data extraction capabilities.
 
-👨‍💻 WeMakeDevs
+👨‍💻 <mark><strong>WeMakeDevs</strong></mark>
 For organizing the Scrape-Verse hackathon and creating the opportunity to build with web data.
 
 👨‍💻 Author
 
-Yatish G K
+⭐ <mark>Yatish G K</mark>
+
+Creator & Developer of ScrapeSense
 
 Built with:
 
@@ -445,4 +499,4 @@ Built with:
 
 🕷️ Scrape Smart. 🤖 Analyze Smarter. 📊 Decide Better. 🚀
 
-Built for Scrape-Verse · Powered by Bright Data · Organized by WeMakeDevs
+🏆 Built for Scrape-Verse · 🕷️ Powered by <mark>Bright Data</mark> · 👨‍💻 Organized by <mark>WeMakeDevs</mark> · 🚀 Built by <mark>Yatish G K</mark>
