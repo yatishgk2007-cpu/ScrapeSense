@@ -43,9 +43,12 @@ Use this structure:
           `.trim(),
         },
         {
-          role: "user",
-          content: prompt,
-        },
+  role: "user",
+  content:
+    typeof prompt === "string"
+      ? prompt
+      : JSON.stringify(prompt),
+},
       ],
 
       temperature: 0.2,
