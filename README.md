@@ -1,32 +1,24 @@
 🚀 ScrapeSense
 
-<h3 align="center">🕷️ AI-Powered Product Intelligence Platform</h3>
+🕷️ AI-Powered Product Intelligence Platform
 
-<p align="center">
-  Turn raw Amazon product data into simple, useful and AI-powered insights.
-</p>
+Turn raw Amazon product data into simple, useful and AI-powered insights.
 
-<p align="center">
-  🕷️ <b>Bright Data</b> &nbsp; • &nbsp;
-  🤖 <b>Groq AI</b> &nbsp; • &nbsp;
-  ⚛️ <b>React</b> &nbsp; • &nbsp;
-  🟢 <b>Node.js</b> &nbsp; • &nbsp;
-  🎨 <b>Tailwind CSS</b>
-</p>
+Built with: 🕷️ Bright Data · 🤖 Groq AI · ⚛️ React · 🟢 Node.js · 🎨 Tailwind CSS
 
 💡 What is ScrapeSense?
 
-ScrapeSense is an AI-powered product intelligence application that takes an Amazon product URL, extracts structured product information using Bright Data, and transforms that data into easy-to-understand product insights using AI.
+ScrapeSense is an AI-powered product intelligence application that takes an Amazon product URL, extracts structured product information using Bright Data, and transforms that data into easy-to-understand insights using AI.
 
 Instead of manually going through a product page, checking prices, ratings, reviews and other information, ScrapeSense brings the important information together in one place.
 
-🔗 Paste a product URL → 🕷️ Scrape the data → 🤖 Analyze it with AI → 📊 Understand the product faster.
+🔗 Paste a product URL → 🕷️ Scrape the data → 🤖 Analyze it → 📊 Understand the product faster.
 
 🎯 The Problem
 
 Online product research can be time-consuming.
 
-A user may have to:
+A user may need to:
 
 🔎 Search through product pages
 
@@ -40,108 +32,102 @@ A user may have to:
 
 🤔 Decide whether the product is worth considering
 
-The information is available, but it is not always easy to process quickly.
-
 💡 Our Idea
 
-What if a user could simply provide the product URL and get the important information and AI-powered analysis in one place?
+What if a user could simply provide a product URL and get the important information and AI-powered analysis in one place?
 
 That's what ScrapeSense aims to do.
 
 ⚙️ How ScrapeSense Works
 
-flowchart LR
-    A["👤 User<br/>Amazon Product URL"]
-    B["💻 React + Vite<br/>Frontend"]
-    C["⚙️ Node.js + Express<br/>Backend"]
-    D["🕷️ Bright Data<br/>Amazon Product Scraper"]
-    E["📦 Structured<br/>Product Data"]
-    F["🤖 Groq AI<br/>Analysis"]
-    G["📊 ScrapeSense<br/>Product Intelligence"]
+ScrapeSense follows a simple pipeline:
 
-    A --> B
-    B --> C
-    C --> D
-    D --> E
-    E --> F
-    F --> G
+                    Amazon Product URL
+                            |
+                            v
+                   React + Vite Frontend
+                            |
+                            v
+                 Node.js + Express Backend
+                            |
+                            v
+                 Bright Data Amazon Scraper
+                            |
+                            v
+                  Structured Product Data
+                            |
+                            v
+                     Groq AI Analysis
+                            |
+                            v
+                  ScrapeSense Product
+                     Intelligence
 
-🔄 Step-by-Step Workflow
+🔄 Process
 
-1️⃣ 👤 User enters an Amazon URL
+1️⃣ 👤 User enters an Amazon product URL
 
 The user provides the product page they want to analyze.
 
-⬇️
-
 2️⃣ 💻 Frontend sends the request
 
-The React/Vite application communicates with the backend.
+The React/Vite frontend communicates with the Node.js/Express backend.
 
-⬇️
-
-3️⃣ 🕷️ Bright Data collects the product data
+3️⃣ 🕷️ Bright Data collects product data
 
 The backend uses the Bright Data Amazon product scraper to retrieve structured information from the product page.
 
-⬇️
+4️⃣ 📦 Structured product data is received
 
-4️⃣ 📦 Structured data is received
-
-Product information such as price, rating, reviews and other available fields are returned as structured data.
-
-⬇️
+The application receives available product information such as title, price, rating, reviews and other product fields.
 
 5️⃣ 🤖 AI analyzes the information
 
-The product data is passed to the AI layer through the Groq API.
-
-⬇️
+The relevant product data is sent to the AI analysis layer through the Groq API.
 
 6️⃣ 📊 Product intelligence is displayed
 
-ScrapeSense presents the processed information in an easy-to-understand interface.
+ScrapeSense presents the processed information in an easy-to-understand dashboard.
 
-🕷️ How We Use Bright Data
+🕷️ How Bright Data Is Used
 
 Bright Data is a core part of ScrapeSense.
 
-We use Bright Data's Amazon product scraping capability to collect structured product information from the web.
+We use Bright Data's Amazon product scraping capability to retrieve structured product information from the web.
 
-Instead of manually collecting product information, ScrapeSense retrieves the data programmatically.
+This allows ScrapeSense to work with real product data instead of requiring users to manually enter product information.
 
-🔄 Data Pipeline
+🔄 Data Flow
 
-🛒 Amazon Product Page
-        │
-        ▼
-🔗 Product URL
-        │
-        ▼
-🕷️ Bright Data
-Amazon Product Scraper
-        │
-        ▼
-📦 Structured Product Data
-        │
-        ▼
-🤖 AI Analysis
-        │
-        ▼
-📊 Product Insights
+Amazon Product Page
+        |
+        v
+   Product URL
+        |
+        v
+Bright Data Amazon Scraper
+        |
+        v
+Structured Product Data
+        |
+        v
+    AI Analysis
+        |
+        v
+ Product Insights
 
-The repository also contains structured output generated from the scraper:
+The repository also includes structured output from the Bright Data Scraper Studio workflow:
 
-📂 scraper-output/
-└── 📄 sample-product.json
+scraper-output/
+        |
+        v
+sample-product.json
 
 🤖 AI-Powered Analysis
 
 ScrapeSense does more than simply collect raw data.
 
-After the product information is retrieved, the application sends the relevant data to the AI layer for analysis through the Groq API.
-
-This helps turn raw product information into information that is easier for a user to understand.
+After the product information is retrieved, relevant data is sent to the AI layer through the Groq API.
 
 🧠 AI-assisted insights can include:
 
@@ -161,117 +147,77 @@ This helps turn raw product information into information that is easier for a us
 
 ✨ Features
 
-Feature
-
-Description
-
-🕷️ Web Scraping
-
-Extract Amazon product information using Bright Data
-
-📦 Structured Data
-
-Work with structured product information
-
-🤖 AI Analysis
-
-Generate useful insights from product data
-
-💰 Price Information
-
-Display product pricing
-
-⭐ Ratings & Reviews
-
-Present rating and review information
-
-📊 Product Intelligence
-
-Bring important information together
-
-🌐 Modern UI
-
-React + Tailwind based interface
-
-⚡ Fast Backend
-
-Node.js + Express API
-
-🇮🇳 INR Display
-
-Product prices can be displayed in ₹
+<table>
+<tr>
+<td><strong>🕷️ Web Scraping</strong><br>Extract Amazon product information using Bright Data.</td>
+<td><strong>📦 Structured Data</strong><br>Work with structured product information.</td>
+</tr>
+<tr>
+<td><strong>🤖 AI Analysis</strong><br>Generate useful insights from product data.</td>
+<td><strong>💰 Price Information</strong><br>Display product pricing.</td>
+</tr>
+<tr>
+<td><strong>⭐ Ratings & Reviews</strong><br>Present rating and review information.</td>
+<td><strong>📊 Product Intelligence</strong><br>Bring important information together.</td>
+</tr>
+<tr>
+<td><strong>🌐 Modern UI</strong><br>React + Tailwind based interface.</td>
+<td><strong>⚡ Fast Backend</strong><br>Node.js + Express API.</td>
+</tr>
+</table>
 
 🛠️ Tech Stack
 
-🎨 Frontend
-
-⚛️ React
-
-⚡ Vite
-
-🎨 Tailwind CSS
-
-🟨 JavaScript
-
-⚙️ Backend
-
-🟢 Node.js
-
-🚂 Express.js
-
-🔌 REST API
-
-🕷️ Web Data
-
-🕷️ Bright Data
-
-🛒 Amazon Product Scraper
-
-🧪 Scraper Studio
-
-🤖 AI
-
-🤖 Groq API
-
-💬 OpenAI-compatible Chat Completions API
-
-🚀 Development & Deployment
-
-🌱 Git
-
-🐙 GitHub
-
-▲ Vercel
-
-☁️ Backend hosting
+<table>
+<tr>
+<td>🎨 <strong>Frontend</strong></td>
+<td>⚛️ React · ⚡ Vite · 🎨 Tailwind CSS · 🟨 JavaScript</td>
+</tr>
+<tr>
+<td>⚙️ <strong>Backend</strong></td>
+<td>🟢 Node.js · 🚂 Express.js · 🔌 REST API</td>
+</tr>
+<tr>
+<td>🕷️ <strong>Web Data</strong></td>
+<td>🕷️ Bright Data · 🛒 Amazon Product Scraper · 🧪 Scraper Studio</td>
+</tr>
+<tr>
+<td>🤖 <strong>AI</strong></td>
+<td>🤖 Groq API · 💬 OpenAI-compatible Chat Completions API</td>
+</tr>
+<tr>
+<td>🚀 <strong>Development</strong></td>
+<td>🌱 Git · 🐙 GitHub · ▲ Vercel · ☁️ Backend hosting</td>
+</tr>
+</table>
 
 📁 Project Structure
 
 ScrapeSense/
-│
-├── 📂 client/
-│   ├── 📂 src/
-│   ├── 📂 public/
-│   ├── 📄 package.json
-│   └── ...
-│
-├── 📂 server/
-│   ├── ...
-│   └── 📄 package.json
-│
-├── 📂 scraper-output/
-│   └── 📄 sample-product.json
-│
-├── 📄 README.md
-├── 📄 .gitignore
-├── 📄 package.json
-└── 📄 package-lock.json
+|
++-- 📂 client/
+|   +-- 📂 src/
+|   +-- 📂 public/
+|   +-- 📄 package.json
+|   +-- ...
+|
++-- 📂 server/
+|   +-- ...
+|   +-- 📄 package.json
+|
++-- 📂 scraper-output/
+|   +-- 📄 sample-product.json
+|
++-- 📄 README.md
++-- 📄 .gitignore
++-- 📄 package.json
++-- 📄 package-lock.json
 
 📦 Scraper Studio Output
 
 The project includes structured output generated from the Bright Data Scraper Studio workflow.
 
-The structured data can contain product information such as:
+The structured data can contain fields such as:
 
 {
   "title": "Product title",
@@ -286,18 +232,26 @@ The structured data can contain product information such as:
   "url": "PRODUCT_URL"
 }
 
-📁 Actual structured output:
+The repository contains the actual scraper output here:
 
-📂 scraper-output/
-└── 📄 sample-product.json
+scraper-output/
+        |
+        +-- sample-product.json
 
-✅ The JSON file in this repository is the actual structured scraper output used as evidence for the Scrape-Verse submission.
+✅ This structured JSON is included as part of the Scrape-Verse submission evidence.
+
+<details>
+<summary>🔎 Why structured output matters</summary>
+
+The scraper output gives the application structured product information that can be processed by the backend and passed to the AI analysis layer.
+
+This creates a clear pipeline from web data extraction to useful product intelligence.
+
+</details>
 
 🚀 Getting Started
 
 📋 Prerequisites
-
-Make sure you have installed:
 
 🟢 Node.js
 
@@ -310,14 +264,12 @@ Make sure you have installed:
 git clone https://github.com/yatishgk2007-cpu/ScrapeSense.git
 cd ScrapeSense
 
-2️⃣ 📦 Install Dependencies
-
-⚙️ Backend
+2️⃣ 📦 Install Backend Dependencies
 
 cd server
 npm install
 
-🎨 Frontend
+3️⃣ 📦 Install Frontend Dependencies
 
 Open another terminal:
 
@@ -328,12 +280,17 @@ npm install
 
 Create the required environment variables for the backend.
 
-Example:
-
 BRIGHTDATA_API_KEY=your_bright_data_api_key
 GROQ_API_KEY=your_groq_api_key
 
 ⚠️ Never upload your real API keys to GitHub.
+
+<details>
+<summary>🔐 Environment variable reminder</summary>
+
+Keep your .env file local and make sure it is included in .gitignore.
+
+</details>
 
 ▶️ Running the Application
 
@@ -353,6 +310,20 @@ Then open the local URL provided by Vite.
 
 🧪 Using ScrapeSense
 
+Amazon Product URL
+        |
+        v
+Bright Data Scraping
+        |
+        v
+Structured Product Data
+        |
+        v
+AI Analysis
+        |
+        v
+ScrapeSense Dashboard
+
 1️⃣ 🔗 Enter a Product URL
 
 Open ScrapeSense and paste an Amazon product URL.
@@ -361,7 +332,7 @@ Open ScrapeSense and paste an Amazon product URL.
 
 Start the product analysis.
 
-3️⃣ 🕷️ Scrape Product Data
+3️⃣ 🕷️ Retrieve Product Data
 
 Bright Data retrieves the available product information.
 
@@ -371,17 +342,37 @@ The backend receives and processes the scraped data.
 
 5️⃣ 🤖 Analyze with AI
 
-The product information is sent to the AI layer.
+The product information is sent to the AI analysis layer.
 
 6️⃣ 📊 View Product Intelligence
 
-Review the resulting information and AI-generated insights in the dashboard.
+Review the resulting product information and AI-generated insights in the dashboard.
+
+🎥 Demo
+
+A short demo should show the complete workflow:
+
+Amazon Product URL
+        |
+        v
+Bright Data Scraping
+        |
+        v
+Structured Product Data
+        |
+        v
+AI Analysis
+        |
+        v
+ScrapeSense Dashboard
+
+🎬 Demo: ADD_DEMO_LINK_HERE
 
 🧠 What I Learned
 
 Building ScrapeSense helped me understand how different parts of a real-world application work together.
 
-📚 Key areas explored:
+📚 Key areas explored
 
 🌐 Web scraping
 
@@ -403,13 +394,20 @@ Building ScrapeSense helped me understand how different parts of a real-world ap
 
 The most interesting part was connecting:
 
-🕷️ Web Data Extraction → ⚙️ Backend Processing → 🤖 AI Analysis → 📊 Frontend Visualization
+Web Data Extraction
+        |
+        v
+Backend Processing
+        |
+        v
+AI Analysis
+        |
+        v
+Frontend Visualization
 
 into one working application.
 
 🔮 Future Improvements
-
-Some ideas for future versions:
 
 🔄 Multi-product comparison
 
@@ -424,22 +422,6 @@ Some ideas for future versions:
 📊 Product trend analysis
 
 🧾 More detailed review intelligence
-
-🎥 Demo
-
-A short demo should show:
-
-🔗 Amazon URL
-      ↓
-🕷️ Bright Data Scraping
-      ↓
-📦 Structured Product Data
-      ↓
-🤖 AI Analysis
-      ↓
-📊 ScrapeSense Dashboard
-
-🎬 Demo: ADD_DEMO_LINK_HERE
 
 🏆 Built for Scrape-Verse
 
@@ -459,20 +441,8 @@ Yatish G K
 
 Built with:
 
-💡 Curiosity
-🧠 Learning
-💻 Code
-🐛 Debugging
-🚀 Experimentation
-
-<p align="center">
+💡 Curiosity · 🧠 Learning · 💻 Code · 🐛 Debugging · 🚀 Experimentation
 
 🕷️ Scrape Smart. 🤖 Analyze Smarter. 📊 Decide Better. 🚀
 
-</p>
-
-<p align="center">
-🏆 Built for <b>Scrape-Verse</b> &nbsp; • &nbsp;
-🕷️ Powered by <b>Bright Data</b> &nbsp; • &nbsp;
-👨‍💻 Organized by <b>WeMakeDevs</b>
-</p>
+Built for Scrape-Verse · Powered by Bright Data · Organized by WeMakeDevs
