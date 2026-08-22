@@ -69,7 +69,7 @@ export default function Overview() {
     setStage('Scraping product data…');
 
     try {
-      const response = await fetch('/api/analyze', {
+      const response = await fetch('/api/analyze/product', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ url }),
