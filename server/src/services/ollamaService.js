@@ -73,11 +73,22 @@ Use this structure:
     throw new Error("Groq returned an empty response");
   }
 
+ try {
+  return JSON.parse(content);
+} catch {
+  const cleaned = content
+    .replace(/```json/g, "")
+    .replace(/```/g, "")
+    .trim();
+
   try {
-    return JSON.parse(content);
-  } catch (error) {
-    throw new Error("Groq returned invalid JSON");
+    return JSON.parse(cleaned);
+  } catch {
+        return {
+      summary: content,
+    };
   }
+}
 }
 
 module.exports = {
