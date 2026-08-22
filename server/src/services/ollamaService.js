@@ -79,4 +79,5 @@ Use this structure:
 
 module.exports = {
   analyzeWithOllama,
+  generateJSON: analyzeWithOllama,
 };
