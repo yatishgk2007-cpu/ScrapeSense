@@ -33,8 +33,8 @@ const isValidAmazonUrl = (value) => {
 
 const formatPrice = (price, currency) => {
   if (price == null) return 'N/A';
-  if (currency) return `${currency} ${Number(price).toFixed(2)}`;
-  return `$${Number(price).toFixed(2)}`;
+
+  return `₹${Number(price).toFixed(2)}`;
 };
 
 const sentimentVariant = (overall) => {
