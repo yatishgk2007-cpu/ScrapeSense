@@ -527,7 +527,9 @@ The product information is sent to the AI analysis layer.
 
 Review the resulting product information and AI-generated insights in the dashboard.
 
-🌐 Live Demo
+## Demo Video
+
+🎥 [Watch the ScrapeSense Demo](https://youtu.be/bhF8OWfjCBw?si=ED3c06gu4UOfnJdm)
 
 🚀 <a href="https://scrape-sense-client.vercel.app/"><strong>🌐 Open ScrapeSense — Live Demo</strong></a>
 
