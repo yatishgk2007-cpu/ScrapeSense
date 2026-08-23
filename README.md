@@ -27,7 +27,7 @@ Turn raw Amazon product data into simple, useful and AI-powered insights.
 </div>
 
 <p>
-<a href="https://scrape-sense-client.vercel.app/"><strong>🌐 Open ScrapeSense — Live Demo</strong></a>
+<a href="https://scrape-sense-client.vercel.app/"><strong>🌐 Open ScrapeSense — <a herf="https://youtu.be/bhF8OWfjCBw"> </strong></a>
 
 </p>
 
